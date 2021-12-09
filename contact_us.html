@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -190,4 +191,198 @@
   </div>
   </div>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Contact Us</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&display=swap" rel="stylesheet">
+   <style>
+      /* Body */
+      body {
+         font-family: 'Fredoka One', cursive;
+         background-image: url("bgc.png");
+         background-repeat: repeat-y;
+         background-size: cover;
+      }
+      /* Navigation Bar */
+      .navbar-dark {
+         background: #b1e8ff;
+      }
+      .logo {
+         width: 44px;
+         margin-left: 80px;;
+      }
+      .con img {
+         width: 100%;
+      }
+      .navbar-nav {
+         margin-left: 20px;
+      }
+      .navlink {
+         font-family: 'Fredoka One', cursive;
+         color: #000;
+         text-decoration: none;
+         padding-left: 20px;
+         font-size: 14px;
+      }
+      .navlink:hover {
+         color: #5fb7a4;
+      }
+      #contact {
+         color: #fbc866;
+      }
+      #mynavbar {
+         margin-left: 240px;
+      }
+      #social {
+         width: 30px; 
+         padding-left: 5px;        
+      }
+      #navrow {
+         margin-right: 300px;
+      }
+      input[type=text],input[type=email],input[type=password],input[type=submit],textarea, select {
+         width: 20%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         display: inline-block;
+         border: 3px dashed #2a2b5a;
+         border-radius: 4px;
+         box-sizing: border-box;
+         font-family: 'Fredoka One', sans-serif;
+      }
+  
+      input[type=submit] {
+         width: 50%;
+         background-color: #ffc75a;
+         color: white;
+         padding: 10px 5px;
+         margin: 8px 0;
+         border: none;
+         border-radius: 4px;
+         cursor: pointer;
+      }
+  
+      input[type=submit]:hover {
+         background-color: #f3b34d;
+      }
+
+      input[type=text]:hover ,input[type=email]:hover ,input[type=password]:hover ,input[type=submit]:hover ,textarea:hover , select:hover {
+         border-style: dotted;
+         border-color: #ffc75a;
+      }
+  
+      div {
+         border-radius: 5px;
+         background:none;
+         color: #2a2b5a; 
+      }
+   </style>
+</head>
+<body>
+   <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container-fluid">
+         <a class="navbar-brand" href="https://kokumiworld.com">
+            <img src="logo.png" class="logo">
+         </a>
+         <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="navlink" href="index.html">HOME</a>
+               </li>
+               <li class="nav-item">
+                  <a class="navlink" href="biodata.html">BIODATA</a>
+               </li>
+               <li class="nav-item">
+                  <a class="navlink" id="contact" href="contact_us.html">CONTACT US</a>
+               </li>
+               <li class="nav-item">
+                  <a class="navlink" href="gallery.html">PHOTO GALLERY</a>
+               </li>
+               <li class="nav-item">
+                  <a class="navlink" href="sharonwav.html">SHARONWAV</a>
+               </li>
+               <li class="nav-item">
+                  <a class="navlink" href="https://unai.edu">UNAI</a>
+               </li>
+               <li class="nav-item">
+                  <a class="navlink" href="https://fti.unai.edu">FTI UNAI</a>
+               </li>
+            </ul>
+         </div>
+         <div class="row" id="navrow"> 
+            <div class="col">
+               <a href="https://instagram.com/sharonwav">
+                  <img src="ig.png"  id="social">
+               </a>
+            </div>
+            <div class="col">
+               <a href="https://open.spotify.com/artist/1x8hrdgFMwHTIsQdQaZd6P?si=hrpycv1HR7eArZbzE65nNA">
+                  <img src="yt.png"  id="social">                 
+               </a>
+            </div>
+         </div>
+      </div>
+   </nav>
+
+   
+  <div class="text-center">
+   <br>
+   <p>Fill the form below</p><br>
+      <form action="simpan.php" method="post">
+          <label for="fname">Nama Lengkap</label><br>
+          <input type="text" id="fname" name="firstname" placeholder="Nama Lengkap.."><br>
+  
+          <label for="lname">Email</label><br>
+          <input type="email" id="lname" name="lastname" placeholder="Email.."><br>
+  
+          <label for="fname">Username</label><br>
+          <input type="text" id="fname" name="firstname" placeholder="Username.."><br>
+  
+          <label for="fname">Password</label><br>
+          <input type="password" id="fname" name="firstname" placeholder="Password.."><br>
+          
+          <label for="fname">Jenis Kelamin</label><br><br>
+          <input type="radio" id="laki" name="jenis_kelamin" value="laki">
+          <label for="laki">Laki-laki</label>
+          <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+          <label for="perempuan">Perempuan</label><br><br>
+  
+  
+          <label for="agama">Agama</label><br>
+          <select id="agama" name="agama">
+              <option value="agama">Pilih Agama</option>
+              <option value="kristen">Kristen Protestan</option>
+              <option value="katolik">Katolik</option>
+              <option value="islam">Islam</option>
+              <option value="hindu">Hindu</option>
+              <option value="budha">Budha</option>
+          </select><br>
+          
+          <label for="alamat">Alamat</label><br>
+          <textarea name="message" style="width:500px; height:80px;">Alamat</textarea>
+          <br>
+  
+          <label for="alamat">Hobby</label><br>
+          <input type="checkbox" id="hobby" name="produksi_musik" value="produksi_musik">
+          <label for="vehicle1">Produksi Musik</label>
+          <input type="checkbox" id="hobby" name="futsal" value="futsal">
+          <label for="vehicle2">Futsal</label>
+          <input type="checkbox" id="hobby" name="mengedit_video" value="mengedit_video">
+          <label for="vehicle3">Mengedit Video</label><br>
+    
+          <input type="submit" value="Submit">
+      </form>
+  </div>
+  </div>
+</body>
+>>>>>>> Stashed changes
 </html>
